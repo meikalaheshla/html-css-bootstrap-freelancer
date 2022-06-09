@@ -64,3 +64,12 @@ header {
 .about-button-box {
     height: 50px;
 }
+
+/* CONTACT ME  */
+.contact-me-info {
+    height: 300px;
+}
+
+.send-button-box {
+    height: 100px;
+}
