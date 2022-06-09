@@ -73,3 +73,16 @@ header {
 .send-button-box {
     height: 100px;
 }
+
+
+/* FOOTER */
+.location-box,
+.social-box,
+.about-box {
+    height: 300px;
+}
+
+.copyright {
+    height: 100px;
+    background-color: black;
+}
