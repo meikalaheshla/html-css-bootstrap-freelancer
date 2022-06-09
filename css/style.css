@@ -47,6 +47,7 @@ header {
 }
 
 /* PORTFOLIO SECTION */
+
 .section-title-box {
     height: 200px;
 }
@@ -56,6 +57,10 @@ header {
 }
 
 /* ABOUT SECTION */
+#about {
+    background-color: #1abc9c;
+}
+
 .about-txt-left,
 .about-txt-right {
     height: 200px;
@@ -66,6 +71,7 @@ header {
 }
 
 /* CONTACT ME  */
+
 .contact-me-info {
     height: 300px;
 }
@@ -76,6 +82,10 @@ header {
 
 
 /* FOOTER */
+footer {
+    background-color: #3a546d;
+}
+
 .location-box,
 .social-box,
 .about-box {
@@ -84,5 +94,5 @@ header {
 
 .copyright {
     height: 100px;
-    background-color: black;
+    background-color: #2c3e50
 }
