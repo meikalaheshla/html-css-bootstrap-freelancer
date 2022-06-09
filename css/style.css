@@ -47,10 +47,20 @@ header {
 }
 
 /* PORTFOLIO SECTION */
-.title-box {
+.section-title-box {
     height: 200px;
 }
 
 .exemple-img {
     height: 300px;
+}
+
+/* ABOUT SECTION */
+.about-txt-left,
+.about-txt-right {
+    height: 200px;
+}
+
+.about-button-box {
+    height: 50px;
 }
