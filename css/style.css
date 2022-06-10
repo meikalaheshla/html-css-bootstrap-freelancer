@@ -1,6 +1,11 @@
+/* GENERICS */
+
 header {
     background-color: #2c3e50;
-    height: 80px;
+}
+
+img {
+    width: 100%;
 }
 
 /* LAYOUT UTILITY */
@@ -15,46 +20,50 @@ header {
     border: 1px solid black
 }
 
+/* MY COLOR UTILITY */
+.my-text-white {
+    color: white;
+}
+
+
+/* MAIN */
+
+/* STAR SEPARATOR */
+.left-star {
+    height: 4px;
+}
+
+.middle-star {}
+
+.right-star {
+    height: 4px;
+}
+
+
 /* HEADER */
-.header-box {
-    max-height: 80px;
-}
 
-.header-navbar {
-    height: 80px
-}
-
-.header-left-nav {
-    height: 100%;
-}
 
 /* JUMBOTRON */
 .jumbotron {
     background-color: #1abc9c;
 }
 
-.jumbo-content {
-    height: 100%;
+.jumbo-title {
+    font-weight: 600;
+}
+
+.jumbo-img-box {}
+
+.jumbo-img {
+    max-width: 300px
 }
 
 
-.jumbo-img-box {
-    height: 300px;
-}
-
-.jumbo-txt-box {
-    height: 100px;
-}
 
 /* PORTFOLIO SECTION */
 
-.section-title-box {
-    height: 200px;
-}
 
-.exemple-img {
-    height: 300px;
-}
+
 
 /* ABOUT SECTION */
 #about {
