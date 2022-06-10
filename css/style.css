@@ -42,6 +42,14 @@ img {
     color: #2c3e50;
 }
 
+.my-button-colored {
+    background-color: #1abc9c;
+}
+
+.start-Bootstrap-link-color {
+    color: #21a792
+}
+
 /* UTILITY */
 
 /* STAR SEPARATOR */
@@ -74,23 +82,9 @@ img {
 }
 
 
-
-/* PORTFOLIO SECTION */
-
-
-
-
-
-.
-/* ABOUT SECTION */
-
-
-
 /* CONTACT ME  */
 
-.contact-me-info {
-    height: 300px;
-}
+
 
 .send-button-box {
     height: 100px;
@@ -102,13 +96,16 @@ footer {
     background-color: #3a546d;
 }
 
-.location-box,
-.social-box,
-.about-box {
-    height: 300px;
+footer .social-item {
+    height: 50px;
+    width: 50px;
+
+
 }
 
 .copyright {
     height: 100px;
+    line-height: 100px;
+
     background-color: #2c3e50
 }

@@ -87,7 +87,7 @@
         </div>
         <section id="portfolio" class="pt-5 pb-5 my-text-dark">
             <div class="container text-center">
-                <h1 class=" section-title fw-semibold display-6 mb-3">PORTFOLIO</h1>
+                <h2 class=" section-title fw-semibold display-6 mb-3">PORTFOLIO</h2>
                 <div class="row mb-4 justify-content-center">
 
                     <div class="col-5 star">
@@ -155,7 +155,7 @@
         </section>
         <section id="about" class=" pt-5 pb-4 text-center section-colored my-text-white ">
             <div class="container">
-                <h1 class=" section-title fw-semibold display-6 mb-3">ABOUT</h1>
+                <h2 class=" section-title fw-semibold display-6 mb-3">ABOUT</h2>
                 <div class="row mb-4 justify-content-center">
 
                     <div class="col-5 star">
@@ -207,7 +207,7 @@
         </section>
         <section id="contact-me" class=" pt-5 pb-5 text-center my-text-dark">
             <div class="container">
-                <h1 class=" section-title fw-semibold display-6 mb-3">CONTACT ME</h1>
+                <h2 class=" section-title fw-semibold display-6 mb-3">CONTACT ME</h2>
                 <div class="row mb-4 justify-content-center">
 
                     <div class="col-5 star">
@@ -239,41 +239,100 @@
                     <div class="col-8 offset-2 
                     contact-me-info">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label fs-3 ">Name</label>
-                            <input type="text" class="form-control border-0 rounded-0 border-bottom"
-                                id="exampleFormControlInput1" placeholder="">
+                            <label for="name" class="form-label fs-3 ">Name</label>
+                            <input type="text" class="form-control border-0 rounded-0 border-bottom" id="name"
+                                placeholder="">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label fs-3 ">Email address</label>
-                            <input type="email" class="form-control border-0 rounded-0 border-bottom"
-                                id="exampleFormControlInput1" placeholder="">
+                            <label for="email" class="form-label fs-3 ">Email address</label>
+                            <input type="email" class="form-control border-0 rounded-0 border-bottom" id="email"
+                                placeholder="">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label fs-3 ">Phone Number</label>
-                            <input type="tel" class="form-control border-0 rounded-0 border-bottom"
-                                id="exampleFormControlInput1" placeholder="">
+                            <label for="telephone" class="form-label fs-3 ">Phone Number</label>
+                            <input type="tel" class="form-control border-0 rounded-0 border-bottom" id="telephone"
+                                placeholder="">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label fs-3">Message</label>
-                            <textarea class="form-control border-0 rounded-0 border-bottom"
-                                id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label for="message" class="form-label fs-3">Message</label>
+                            <textarea class="form-control border-0 rounded-0 border-bottom" id="message"
+                                rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary my-button-colored border-0 fs-5">Send</button>
                         </div>
 
                     </div>
-                    <div class="send-button-box col-8 offset-2 col-lg-10 offset-lg-1"></div>
+
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="my-text-white pt-5 ">
         <div class="container">
-            <div class="row">
-                <div class=" col-md-4 location-box"></div>
-                <div class=" col-md-4 social-box"></div>
-                <div class=" col-md-4 about-box"></div>
+            <div class="row text-center">
+                <div class=" col-md-4 ">
+                    <div class="location-box mb-5">
+
+                        <h4 class="fw-semibold ">LOCATION</h4>
+                        <span class="fw-semibold fs-5">2215 John Daniel Drive Clark, MO 54243</span>
+                    </div>
+                </div>
+                <div class=" col-md-4 ">
+                    <div class="social-box mb-5">
+                        <h5 class="fw-semibold">AROUND THE WEB</h5>
+                        <div class="row ">
+                            <div
+                                class="col-8 offset-2 col-md-12 offset-md-0 justify-content-center col-lg-10 offset-lg-1 ">
+                                <div class="row">
+
+                                    <div class="col-3">
+                                        <div
+                                            class=" social-item rounded-circle border border-light d-flex align-items-center justify-content-center">
+                                            <span>icona</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div
+                                            class=" social-item rounded-circle border border-light d-flex align-items-center justify-content-center">
+                                            <span>icona</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div
+                                            class=" social-item rounded-circle border border-light d-flex align-items-center justify-content-center">
+                                            <span>icona</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div
+                                            class=" social-item rounded-circle border border-light d-flex align-items-center justify-content-center">
+                                            <span>icona</span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4 about-box">
+                    <div class="about-freelancer-box mb-5">
+                        <h5 class="fw-semibold">ABOUT FREELANCER</h5>
+                        <span class="fw-semibold fs-5">Freelance is a free use, open source Bootstrap theme created
+                            by
+                            <a href="" class="text-decoration-none start-Bootstrap-link-color">Strart
+                                Bootstrap</a></span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="copyright"></div>
+        <div class="copyright text-center">
+            <span class="align-middle"> Copyright Ⓒ Your website 2019</span>
+
+        </div>
     </footer>
 
 </body>
