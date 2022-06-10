@@ -29,15 +29,15 @@ img {
 /* MAIN */
 
 /* STAR SEPARATOR */
-.left-star {
-    height: 4px;
+.left-star,
+.right-star {
+    height: 6px;
+    width: 100%;
 }
 
 .middle-star {}
 
-.right-star {
-    height: 4px;
-}
+
 
 
 /* HEADER */
@@ -48,14 +48,14 @@ img {
     background-color: #1abc9c;
 }
 
-.jumbo-title {
+.title {
     font-weight: 600;
 }
 
 .jumbo-img-box {}
 
 .jumbo-img {
-    max-width: 300px
+    max-width: 250px
 }
 
 
